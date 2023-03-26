@@ -7,12 +7,12 @@ import { Link } from "react-router-dom";
 
 export const Home = () => {
   return (
-    {/* The HelmetProvider component from react-helmet-async library is used to provide a context for the Helmet component
-     to update the document head asynchronously.
-    The Helmet component is used to set the title and meta tags of the document head. */}
     <HelmetProvider>
-        {/* The section element with the id of "home" is used to contain the content of the home page. */}
+    {/* The HelmetProvider component from react-helmet-async library is used to provide a context for the Helmet component
+    to update the document head asynchronously.
+    The Helmet component is used to set the title and meta tags of the document head. */}
       <section id="home" className="home">
+      {/* The section element with the id of "home" is used to contain the content of the home page. */}
         <Helmet>
           <meta charSet="utf-8" />
           <title> {meta.title}</title>
